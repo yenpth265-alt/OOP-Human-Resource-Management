@@ -52,6 +52,6 @@ classDiagram
         +displayTeam() void
     }
 
-    Employee <|-- SoftwareEngineer : Kế thừa (Inheritance)
-    ProjectTeam o-- Employee : Kết tập (Aggregation - Leader)
-    ProjectTeam o-- Employee : Kết tập (Aggregation - Members)
+    Employee <|-- SoftwareEngineer 
+    ProjectTeam o-- Employee 
+    ProjectTeam o-- Employee
