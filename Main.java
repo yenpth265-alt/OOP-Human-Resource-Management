@@ -192,6 +192,7 @@ public class Main {
 
         System.out.println("\n--- Thu xoa leader S01 ---");
         team1.removeMember("S01"); 
+        team1.displayTeam();
         
         System.out.println("\n--- Thay doi leader sang S02 va xoa S01 ---");
         team1.changeLeader(se2);
